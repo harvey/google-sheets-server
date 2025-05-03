@@ -11,6 +11,8 @@ Turn Google Sheets into a free lightweight database/server using Google Apps Scr
 - **Google Apps Script Integration** - Secure, Google-approved API endpoints
 - **Lightweight** - No databases or complex infrastructure required
 
+> Working on a guide to allow for 'Sign in with google' integration
+
 ## 🚀 Quick Start
 
 ### Installation
