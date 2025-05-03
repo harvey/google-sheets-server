@@ -1,6 +1,6 @@
 # Google Sheets Server 🚀
 
-Turn Google Sheets into a free lightweight database/server using Google Apps Script. Perfect for small projects, prototypes, and serverless applications!
+Turn Google Sheets into a free lightweight database/server using Google Apps Script. Perfect for small projects, prototypes, and serverless applications (e.g. chrome extensions)!
 > As people were interested in how I managed my extension in r/chrome_extensions
 
 ## 🔥 Features
