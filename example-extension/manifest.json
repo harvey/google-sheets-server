@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "Example Extension",
+    "version": "1.0",
+    "description": "An example extension to demonstrate using a google sheets server.",
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="width: 500px; height: 500px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    
+<!-- Action Buttons -->
+<div style="margin: 20px; display: flex; flex-wrap: wrap; gap: 10px;">
+    <button id="inputBtn" style="padding: 8px 12px;">Input</button>
+    <button id="newCellBtn" style="padding: 8px 12px;">New Cell</button>
+    <button id="readCellBtn" style="padding: 8px 12px;">Read Cell</button>
+    <button id="newPageBtn" style="padding: 8px 12px;">New Page</button>
+</div>
+
+<!-- Input boxes -->
+    <input type="text" id="url" placeholder="Enter URL for app script" style="width: 300px; height: 30px; margin-bottom: 10px;">
+    <input type="text" id="data" placeholder="Enter data to send" style="width: 300px; height: 30px; margin-bottom: 10px;">
+
+<!-- Send request button -->
+    <button id="sendRequest">Send request</button>
+
+<!-- Visual response -->
+    <label style="margin-top: 20px;">Response:<br>
+        <textarea id="responseText" style="width: 300px; height: 200px; margin-top: 10px;" readonly></textarea>
+    </label>
+
+    <script src="popup.js"></script>
+
+    <!-- GitHub links -->
+    <div id="githubButtons"></div>
+    <script src="github.js"></script>
+</body>
+</html>
