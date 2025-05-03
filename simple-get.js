@@ -77,6 +77,3 @@ function doGet(e) {
     spreadsheet.insertSheet(title);
     return `New sheet '${title}' created successfully.`;
   }
-  
-  
-  
